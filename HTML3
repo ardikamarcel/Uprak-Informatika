@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Auprak3.css">
+    <title>BRONXY Marcello/94/19</title>
+</head>
+<body>
+    <header>
+        <img src="/img/BRONXY.png" alt="BRONXY" style="width: 150px; position: absolute; left: 9px;">
+        <h1>BRONXY: Toko Online No.1 di Seluruh Dunia</h1>
+        <nav>
+            <ul>
+                <li><a href="Auprak.html">About Us</a></li>
+                <li><a href="Auprak2.html">Produk Catalog</a></li>
+                <li><a href="Auprak.html">Contact</a></li>
+                <li><a href="Auprak3.html">Diskon & Promo</a></li>
+                <li><a href="Aupraksignin.html">Sign In/Log In</a></li> 
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <main>
+            <section class="promo-container">
+                <section class="promo">
+                    <h3>Diskon 1</h3>
+                    <p>Pembelian total di atas 100.000 akan diberi diskon 15%</p>
+                </section>
+                <section class="promo">
+                    <h3>Diskon 2</h3>
+                    <p>Pembelian sendal sebanyak 3x akan diberi diskon 20%</p>
+                </section>
+                <section class="promo">
+                    <h3>Promo 1</h3>
+                    <p>Beli 2 sepatu gratis 1 sendal</p>
+                </section>
+                <section class="promo">
+                    <h3>Promo 2</h3>
+                    <p>Beli 3 kacamata gratis 1 sepatu</p>
+                </section>
+                <section class="promo">
+                    <h3>Promo 3</h3>
+                    <p>Beli 5 sepatu 4 kacamata</p>
+                </section>
+            </section>            
+    </main>
+</body>
+</html>
