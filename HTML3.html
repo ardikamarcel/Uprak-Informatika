@@ -3,47 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Auprak3.css">
-    <title>BRONXY Marcello/94/19</title>
+    <link rel="stylesheet" href="Aupraksignin.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="/img/BRONXY.png" alt="BRONXY" style="width: 150px; position: absolute; left: 9px;">
+        <img src="/img/BRONXY.png" alt="BRONXY" style="width: 150px; position: absolute; left: 10px;">
         <h1>BRONXY: Toko Online No.1 di Seluruh Dunia</h1>
         <nav>
             <ul>
                 <li><a href="Auprak.html">About Us</a></li>
                 <li><a href="Auprak2.html">Produk Catalog</a></li>
                 <li><a href="Auprak.html">Contact</a></li>
-                <li><a href="Auprak3.html">Diskon & Promo</a></li>
                 <li><a href="Aupraksignin.html">Sign In/Log In</a></li> 
             </ul>
         </nav> 
     </header>
-    <main>
-        <main>
-            <section class="promo-container">
-                <section class="promo">
-                    <h3>Diskon 1</h3>
-                    <p>Pembelian total di atas 100.000 akan diberi diskon 15%</p>
-                </section>
-                <section class="promo">
-                    <h3>Diskon 2</h3>
-                    <p>Pembelian sendal sebanyak 3x akan diberi diskon 20%</p>
-                </section>
-                <section class="promo">
-                    <h3>Promo 1</h3>
-                    <p>Beli 2 sepatu gratis 1 sendal</p>
-                </section>
-                <section class="promo">
-                    <h3>Promo 2</h3>
-                    <p>Beli 3 kacamata gratis 1 sepatu</p>
-                </section>
-                <section class="promo">
-                    <h3>Promo 3</h3>
-                    <p>Beli 5 sepatu 4 kacamata</p>
-                </section>
-            </section>            
-    </main>
+    <form action="/submit-form" method="post" enctype="multipart/form-data">
+        <h1><center>Sign In/Log In ke BRONXY</center></h1>
+        <table>
+        <tr>
+        <td><label>Nama Anda:</label></td>
+        <td><input type="text" name="name" size="40" maxlength="50" required></td>
+        </tr>
+        <tr>
+        <td><label>Email Anda:</label></td>
+        <td><input type="email" name="email" size="40" maxlength="50" placeholder="namaemail@gmail.com" required></td>
+        </tr>
+        <tr>
+        <td><label>Nomor Telepon Anda:</label></td>
+        <td><input type="tel" id="phone" name="phone" placeholder="+62 123600293" pattern="[0-9]{9,12}" required></td>
+        </tr>
+        <tr>
+            <td><label>Saya Menyetujui Syarat & Ketentuan</label></td>
+            <td><input type="checkbox" id="Saya menyetujui syarat & ketentuan" name="Saya menyetujui syarat & ketentuan" value="Saya menyetujui syarat & ketentuan" required></td>
+        </tr>
+        <td>
+            <button><a href="Auprak.html">Submit</a></button> 
+            <button><a href="Auprak.html">Back</a></button> 
+        </td>
 </body>
 </html>
